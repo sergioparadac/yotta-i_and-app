@@ -3,26 +3,20 @@ plugins {
 }
 
 android {
-
-
-    namespace = "cl.simpleclick.yotta"
+    namespace = "cl.yotta"
     compileSdk {
         version = release(36)
-
     }
 
-
-
     defaultConfig {
-        applicationId = "cl.simpleclick.yotta"
-        minSdk = 33
+        applicationId = "cl.yotta"
+        minSdk = 29
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
 
     buildTypes {
         release {
@@ -44,7 +38,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.core)
+    implementation(libs.localbroadcastmanager)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

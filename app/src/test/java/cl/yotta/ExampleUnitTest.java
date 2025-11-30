@@ -1,4 +1,4 @@
-package cl.simpleclick.yotta;
+package cl.yotta;
 
 import org.junit.Test;
 

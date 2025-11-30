@@ -1,4 +1,4 @@
-package cl.simpleclick.yotta;
+package cl.yotta;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("cl.simpleclick.yotta", appContext.getPackageName());
+        assertEquals("cl.yotta", appContext.getPackageName());
     }
 }
